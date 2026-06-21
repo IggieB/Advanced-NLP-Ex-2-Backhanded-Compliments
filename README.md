@@ -1,7 +1,7 @@
 # NLP Failure Analysis: Backhanded Compliments
 
 ## Objective
-This project explores the failure modes of Large Language Models (LLMs) specifically regarding **Pragmatic Inference**. We demonstrate that models like Llama-3.1-8B exhibit a **Positive Lexical Bias**, where they prioritize positive adjectives (e.g., "intelligent", "competent") over the condescending syntactic qualifiers that render a sentence an insult.
+This project explores the failure modes of Large Language Models (LLMs) specifically regarding **Pragmatic Inference**. It demonstrates that models like Llama-3.1-8B exhibit a **Positive Lexical Bias**, where they prioritize positive adjectives (e.g., "intelligent", "competent") over the condescending syntactic qualifiers that render a sentence an insult.
 
 ## Hypothesis
 The model performs a "sentiment sum" rather than a logical parse. It fails to identify that a compliment relative to a low baseline (e.g., "more competent than I expected") is socially negative.
